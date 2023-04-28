@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="icon" type="image/x-icon" href="/asset/icons8-source-code-32.png">
+    <link rel="stylesheet" href="text editor.css" />
+    <script src="https://kit.fontawesome.com/d162c7e08c.js" crossorigin="anonymous"></script>
+</head>
+
+<div class="u1">
+    <H1 class="h1"> Code-Editor</H1>
+</div>
+
+<body>
+    <div>
+        
+            <div>
+                <label> <i class="fa-brands fa-html5"></i> </i> </script> HTML</label>
+                <textarea placeholder="!---TYPE YOUR HTML--!" id="html-code" onkeyup="run()"></textarea>
+            </div>
+            <div>
+                <label> <i class="fa-brands fa-css3-alt"></i> CSS</label>
+                <textarea placeholder="!---TYPE YOUR CSS--!"id="css-code" onkeyup="run()"></textarea>
+            </div>
+            <div>
+                <label> <i class="fa-brands fa-square-js"></i> JavaScript</label>
+                <textarea placeholder="!---TYPE YOUR JavaScript--!" id="js-code" onkeyup="run()"></textarea>
+            </div>
+        
+    </div>
+
+    <div class="right">
+        <label> <i class="fa-solid fa-play"></i> Output </label>
+        <iframe id="output"></iframe>
+    </div>
+
+
+
+    <script src="text editor.js"></script>
+</body>
+
+</html>
